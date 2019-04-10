@@ -26,4 +26,5 @@ void CtrlMotorSpeed(unsigned char motor, int speed);
 #define FORWARD 1
 #define BACKWARD 2
 
+#define MAX_SPEED 300
 #endif

@@ -56,10 +56,10 @@ int DIR = 1;
 void CtrlMotorSpeed(unsigned char MOTOR, int SPEED)
 {
 	//对速度作出限制
-	if (SPEED > 1000)
-		SPEED = 1000;
-	if (SPEED < -1000)
-		SPEED = -1000;
+	if (SPEED > MAX_SPEED)
+		SPEED = MAX_SPEED;
+	if (-SPEED > MAX_SPEED)
+		SPEED = -MAX_SPEED;
 
 	//判断正反
 	if (SPEED > 0)

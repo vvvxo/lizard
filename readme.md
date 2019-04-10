@@ -36,7 +36,8 @@ PID:TIM5 PA0,PA1
 IN.c为引脚初始化代码,初始状态为所有电机刹车
 
 ## CAN这里全部转换为USART最大发送八位数据，需要进行转换
-
+CAN1_RX PA11
+CAN1_TX PA12
 ## PID用掉TIM2
 
 # 编码器

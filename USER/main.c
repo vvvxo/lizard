@@ -24,7 +24,6 @@ int main(void)
 	Bsp_init();
 	while (1)
 	{
-		set_angle(RS,0);
 //		set_angle(LM, 60);
 //		while(1);
 //		
