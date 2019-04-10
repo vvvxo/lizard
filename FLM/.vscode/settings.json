@@ -1,0 +1,6 @@
+{
+    "files.associations": {
+        "reg.h": "c",
+        "can.h": "c"
+    }
+}

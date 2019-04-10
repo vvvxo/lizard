@@ -1,0 +1,28 @@
+{
+    "configurations": [
+        {
+            "name": "Win32",
+            "includePath": [
+                "${workspaceFolder}/**",
+                "E:/STM32/Motor/User",
+                "E:/STM32/Motor/UserInc",
+                "E:/STM32/Motor/STM32_Lib/CMSIS",
+                "E:/STM32/Motor/STM32_Lib/inc"
+            ],
+            "defines": [
+                "_DEBUG",
+                "UNICODE",
+                "_UNICODE",
+                "STM32F10X_MD",
+                "USE_STDPERIPH_DRIVER",
+                "__CC_ARM"
+            ],
+            "windowsSdkVersion": "10.0.17134.0",
+            "compilerPath": "D:/Program Files (x86/ Tools ARM Embedded/7 2018-q2-update/bin",
+            "cStandard": "c11",
+            "cppStandard": "c++17",
+            "intelliSenseMode": "msvc-x64"
+        }
+    ],
+    "version": 4
+}
